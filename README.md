@@ -14,7 +14,7 @@ Training log linegraph that illustrates the training efficiency of the algorithm
 
 ![](https://github.com/anhdang000/simple-maze-solving/blob/master/training_log.png)
 
-The algorithm let the agent to find the whole way by itself from scratch. At early episodes, time intervals spending on an episode is extremely costly. In a worse case, these numbers are more considerable. The problem can be slightly solved 
+The algorithm let the agent to find the whole way by itself from scratch. At early episodes, time intervals spending on an episode is extremely costly. In a worse case, these numbers are more considerable. The problem can be slightly solved by increasing `epsilon` for actions balancing.
 
 ## 3. Evaluation
 I randomly generate start points for the agent to show its understanding about the learned maze.
