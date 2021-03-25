@@ -5,6 +5,8 @@ The maze is generated randomly. My implementation is to find a way to the <b>GOA
 Q-Learning algorithm is illustrated in the following figure:
 ![](https://github.com/anhdang000/simple-maze-solving/blob/master/q-learning-algorithm.png)
 
+Obatacle on the maze are generated with random positions. Here is an example of my work:
+
 ![](https://github.com/anhdang000/simple-maze-solving/blob/master/maze.png)
 
 ## 2. Training
