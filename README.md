@@ -1,6 +1,9 @@
 # Solving Simple Maze Using Q-Learning
 
-## 1. Introduction
+# Table of contents
+1. [Introduction](#introduction)
+
+## 1. Introduction <a name="introduction"></a>
 The maze is generated randomly. My implementation is to find a way to the <b>GOAL</b> (located at bottom-right of the maze) from <b>START</b> cell.
 Q-Learning algorithm is simply illustrated in the following figure:
 ![](https://github.com/anhdang000/simple-maze-solving/blob/master/q-learning-algorithm.png)
