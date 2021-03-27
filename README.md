@@ -2,6 +2,8 @@
 
 # Table of contents
 1. [Introduction](#introduction)
+2. [Training](#training)
+3. [Evaluation](#evaluation)
 
 ## 1. Introduction <a name="introduction"></a>
 The maze is generated randomly. My implementation is to find a way to the <b>GOAL</b> (located at bottom-right of the maze) from <b>START</b> cell.
@@ -12,14 +14,14 @@ Obatacles on the maze are generated with random positions. Here is an example of
 
 ![](https://github.com/anhdang000/simple-maze-solving/blob/master/maze.png)
 
-## 2. Training
+## 2. Training <a name="training"></a>
 Training log linegraph that illustrates the training efficiency of the algorithm.
 
 ![](https://github.com/anhdang000/simple-maze-solving/blob/master/training_log.png)
 
 The algorithm lets the agent to find the whole way by itself from scratch. At early episodes, time interval spending on an episode is extremely costly. In a worse case, these numbers are more considerable. The problem can be slightly solved by increasing `epsilon` for actions balancing.
 
-## 3. Evaluation
+## 3. Evaluation <a name="evaluation"></a>
 I randomly generate start points for the agent to show its understanding about the learned maze.
 
 <b> First case: </b>
