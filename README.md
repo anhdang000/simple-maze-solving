@@ -17,9 +17,11 @@ Obatacles on the maze are generated with random positions. Here is an example of
 
 ## 2. Usage <a name="usage"></a>
 <b>Set up and training</b>
+
 Run `maze_solving.m` for implementing on a randomly generated environment. Initial maze will be saved in `maze.png`. Learned optimal Q values will be saved in `q.mat` as a 2D matrix. Time steps spended on an episode throughtout the training process will be stored in `train_efficiency.mat` as well.
 
 <b>Visualize</b>
+
 Run `Visualization.m` for results visualization. The script is to provide illustration for 3 situation come along with 3 specific start points for the agent.
 
 ## 3. Training <a name="training"></a>
