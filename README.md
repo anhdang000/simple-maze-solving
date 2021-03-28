@@ -24,7 +24,7 @@ Run `maze_solving.m` for implementing on a randomly generated environment. Initi
 
 ### 2.2. Visualize the result <a name="visualize"></a>
 
-Run `Visualization.m` for result visualization. The script is to provide illustration for 3 situation come along with 3 specific start points for the agent.
+Run `Visualization.m` for result visualization. The script is to provide illustrations for 3 situations corresponding to 3 specific start points for the agent.
 
 ## 3. Training <a name="training"></a>
 Training log linegraph that illustrates the training efficiency of the algorithm.
